@@ -31,10 +31,26 @@ public class Calculadora {
         System.out.println("Suma: "+sumar(x,y));
         System.out.println("Restar: "+restar(x,y));
         System.out.println("Multi: "+multiplicar(x,y));
-        System.out.println("Div: "+dividir(x,y));     
+        System.out.println("Div: "+dividir(x,y));
+        
+        
     }
     
-    
-    
+    public static int sumar(int a, int b){
+        int s=a+b;
+        return s;
+    }
+    public static int restar(int a, int b){
+        int s=a-b;
+        return s;
+    }
+    public static int multiplicar(int a, int b){
+        int s=a*b;
+        return s;
+    }
+    public static int dividir(int a, int b){
+        int s=a/b;
+        return s;
+    }
     
 }
