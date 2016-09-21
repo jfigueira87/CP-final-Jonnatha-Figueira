@@ -8,8 +8,8 @@ public class Calculadora {
               
     }
     
-     public static int restar(int a, int b){
-        int s=a-b;
+    public static int multiplicar(double a, double b){
+        int s=a*b;
         return s;
     }
     
